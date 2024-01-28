@@ -15,4 +15,11 @@ const markHigherBMI =markBMI > johnBMI;
 
 
 
+const name = "Sansa Zainab Temitope"
+const job = "Chemist"
 
+//CONCATENATION
+console.log('My name is ' + myName + ' , and I work as a' + job);
+
+//TEMPLATE LITERALS
+console.log('My name is ${name}, and i work as a ${job}')
