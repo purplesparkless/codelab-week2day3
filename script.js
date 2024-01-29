@@ -23,3 +23,15 @@ console.log('My name is ' + myName + ' , and I work as a' + job);
 
 //TEMPLATE LITERALS
 console.log('My name is ${name}, and i work as a ${job}')
+
+//DECISION MAKING IF/ELSE 
+//SWITCH STATEMENT
+const today = 'saturday';
+switch(today /*value*/){
+    case 'saturday': //today==='saturday
+    console.log('Attend js back');
+    break;
+
+    case 'friday':
+    console.log('Yayyyyyyyyy');
+}
