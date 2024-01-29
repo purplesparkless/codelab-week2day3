@@ -12,7 +12,12 @@ const johnBMI = Math.round(johnMass / (johnHeight **2));
 
 /////////////////////////////////
 const markHigherBMI =markBMI > johnBMI;
-
+///////////
+if (markBMI >johnBMI){
+    console.log("Mark's BMI (${markBMI}) is larger than John's BMI (${johnBMI})");
+}else{
+    console.log("John's BMI (${johnBMI}) is larger than Mark's BMI (${markBMI})");
+}
 
 
 const name = "Sansa Zainab Temitope"
